@@ -1,0 +1,20 @@
+stored moss 25 at location 13
+Error eno not found
+stored boom 18 at location 5
+stored cake 70 at location 10
+Error tree not found
+boom with a value of 18 found at location 5
+Error moss 25 already exist at 13
+Error boy not found
+stored food 17 at location 26
+cake with a value of 70 found at location 10
+stored runner 18 at location 6
+stored money 20 at location 36
+Error drive not found
+stored class 80 at location 27
+moss with a value of 25 found at location 13
+Error boom 18 already exist at 5
+food with a value of 17 found at location 26
+Error toys not found
+runner with a value of 18 found at location 6
+Error food 17 already exist at 26
