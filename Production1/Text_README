@@ -1,0 +1,61 @@
+Text File and Explanation for Project One
+-----------------------------------------------------------------------------
+Name-Richard J Cowans
+Nnumer-n01222478
+Due Date-Sept 14, 2018
+-----------------------------------------------------------------------------
+Purpose- 
+	(WHAT)-This project was to make a hash table that would be used for 
+the assembler that we are to make with pass 1 and pass 2. This table will give
+the first step into make the assembler that is due at the end of the course.
+	(HOW)-I would take in files and store then to an hashTable(array) 
+using Quadratic Probing and a common hash function that would hash the string.
+That will only occur if I am making a insertion, which would mean there is a number
+and a string. Otherwise, the following code would perform a find method on the string.
+	(WHY)- This gives the assembler, when it is done of course to, to pick
+its finding of what was held to assemble the machine code.
+----------------------------------------------------------------------------
+Source File:
+Makefile- to compile all code on the read
+//Comment//I decided to split each class into a seperate file//Comment//
+assembler_main.java-runs the code
+DataItem.java-a class that holds the information
+HashTableQuad.java- a hashtable class to perform the quadratic probing, for insert and find
+----------------------------------------------------------------------------
+Input File:
+//Comments- I made a arbitary input File of about 10 insertions and 10 attempted finds//
+//Comments-That files name is inputFile.txt//The contents of the file are listed below//
+inputFile.txt:
+moss 25
+eno
+boom 18
+cake 70
+tree
+boom
+moss 25
+boy
+food 17
+cake
+runner 18
+money 20
+drive
+class 80
+moss
+boom 18
+food
+toys
+runner
+food 17
+---------------------------------------------------------------------------------------------
+Output file- No output file to see, everything is going to console
+---------------------------------------------------------------------------------------------
+Excutation
+the textfile can be any name. I named my file: inputFile.txt
+To run the program you would do the following actions:
+
+unshar Proj1.zip
+make
+java assembler inputFile.txt
+
+---------------------------------------------------------------------------------------------
+

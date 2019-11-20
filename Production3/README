@@ -1,0 +1,46 @@
+Extra Credit 									Richard Cowans
+Not Attempted									n01222478
+					Project 3
+Purpose
+This project thread is creating the address lines that a assembler would make in through
+the sicasm command. This is pass 1 of a sic/xe program which then leads into pass 2, which
+will the last project for this class. I used two HashTables one to hold the know commands
+and the other to old the "TEST" file command or basic the pgm before the pgm.lst and pgm.obj
+I hashed the key and used the value as a secondary finder for some parts of the program.
+This program show the true purpose of a step by step work out of what how the addresses
+are caluclated for each SIC/XE program. A structures program like this will make pass 2 
+project simplier
+
+-----------------------------------------------------------------------------------------
+Source Files:
+-----------------------------------------------------------------------------------------
+assembler_main.java:the main code that drives the program and pass1.
+DataItem.java: the Node class that holds all the values for the hashtable.
+HashtableQuad.java: a hashtable that performs both linear and Quadratic but main Linear
+		    stores the DataItems in a DataItem array, using hashing.
+Makefile: a file that pre compiles all the code due to a command called Make
+-----------------------------------------------------------------------------------------
+Input Files:
+-----------------------------------------------------------------------------------------
+SICOP.txt: all the predefined instruction with their hex values in a text file.
+	   this is what is going to be used to compare the instruction to the test file.
+Testfile.txt: a file that would be used to pass into the assembler to in SIC/XE.
+-----------------------------------------------------------------------------------------
+Output:
+-----------------------------------------------------------------------------------------
+Nothing to Output everything going to console.
+-----------------------------------------------------------------------------------------
+Executation:
+-----------------------------------------------------------------------------------------
+Execuation of the program to do pass 1 work
+Note:please use my very of SICOP that way the spacing does not mess up.
+
+Step One: After unshar of the program you will see 3 source files and two input files
+Step Two: type make and wait till the test "Everything is Down" before continuting forward
+Step Three: perfore the following commands:
+
+		java assembler_main SICOP.txt TestFile.txt
+
+Note:Step Three can be done again with  a dffrent "test fie" just change the name and make 
+sure it is located in the directory. In case you would like to test more examples of your own.
+-----------------------------------------------------------------------------------------

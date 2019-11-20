@@ -1,0 +1,31 @@
+*********************************************
+University of North Florida: SIC/XE assembler
+version date 11/12/2002
+account: n01222478; Tue Dec  4 10:21:59 2018
+*********************************************
+ASSEMBLER REPORT
+----------------
+     Loc   Object Code       Source Code
+     ---   -----------       -----------
+001- 00100                   ADDRESS	START	100
+002- 00100                   NOW	+LDB	#BEGIN
+********** ERROR: Operand not found in symbol table [#5 on line 2]
+003- 00104                   XXX	BASE	BEGIN
+004- 00104 030001            YYY	LDA	1
+005- 00107 050005            BBB	LDX	#5
+006- 0010A                   EN	RESW	4
+007- 00116 9801              BOOM	MULR	A,X
+008- 00118 000002            BE	WORD	2
+009- 0011B 000003            RIP	WORD	3
+010- 0011E 000006            LOL	WORD	6
+011- 00121 FFFFF9            	WORD	-7
+012- 00124 000008            	WORD	8
+013- 00127 000009            	WORD	9
+014- 0012A                   BEGIN	RESW	1
+015- 0012D                   JUNK	RESW	2200
+016- 01AF5 034003            ZZZ	LDA	JUNK
+017- 01AF8 000005            THERE	WORD	5
+018- 01AFB                   ME	LDA	YYY
+********** ERROR: Displacement out of range PC relative and for BASE value [#24 on line 18]
+019- 01AFE 0F2FF7            MMM	STA	THERE
+020- 01B01                   	END	NOW
